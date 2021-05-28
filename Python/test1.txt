@@ -1,0 +1,763 @@
+{
+  "analyzeResult": {
+    "documentResults": [
+      {
+        "docType": "custom:curriculum",
+        "docTypeConfidence": 0.995,
+        "fields": {
+          "Curso": {
+            "boundingBox": [
+              249.0,
+              218.0,
+              663.0,
+              218.0,
+              663.0,
+              262.0,
+              249.0,
+              262.0
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/0/words/0",
+              "#/readResults/0/lines/0/words/1"
+            ],
+            "page": 1,
+            "text": "ARTES VISUAIS",
+            "type": "string",
+            "valueString": "ARTES VISUAIS"
+          },
+          "Email": {
+            "boundingBox": [
+              1656.0,
+              805.0,
+              2084.0,
+              805.0,
+              2084.0,
+              846.0,
+              1656.0,
+              846.0
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/5/words/0"
+            ],
+            "page": 1,
+            "text": "takeishi.lc@gmail.com",
+            "type": "string",
+            "valueString": "takeishi.lc@gmail.com"
+          },
+          "Endereco": {
+            "boundingBox": [
+              236.0,
+              1320.0,
+              920.0,
+              1320.0,
+              920.0,
+              1362.0,
+              236.0,
+              1362.0
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/8/words/0",
+              "#/readResults/0/lines/8/words/1",
+              "#/readResults/0/lines/8/words/2",
+              "#/readResults/0/lines/8/words/3",
+              "#/readResults/0/lines/8/words/4",
+              "#/readResults/0/lines/8/words/5",
+              "#/readResults/0/lines/8/words/6"
+            ],
+            "page": 1,
+            "text": "Avenida do Jo\u00e3o, 11, Vila - BH/MG",
+            "type": "string",
+            "valueString": "Avenida do Jo\u00e3o, 11, Vila - BH/MG"
+          },
+          "Idiomas": {
+            "boundingBox": [
+              1582.0,
+              720.0,
+              2104.0,
+              720.0,
+              2104.0,
+              764.0,
+              1582.0,
+              764.0
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/4/words/0",
+              "#/readResults/0/lines/4/words/1",
+              "#/readResults/0/lines/4/words/2"
+            ],
+            "page": 1,
+            "text": "Portugu\u00eas, Ingl\u00eas, Franc\u00eas",
+            "type": "string",
+            "valueString": "Portugu\u00eas, Ingl\u00eas, Franc\u00eas"
+          },
+          "Linkedin": {
+            "boundingBox": [
+              777.0,
+              891.0,
+              2101.0,
+              891.0,
+              2101.0,
+              934.0,
+              777.0,
+              934.0
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/6/words/0"
+            ],
+            "page": 1,
+            "text": "https://www.linkedin.com/in/luana-campos-takeishi-204836200/",
+            "type": "string",
+            "valueString": "https://www.linkedin.com/in/luana-campos-takeishi-204836200/"
+          },
+          "Nome": {
+            "boundingBox": [
+              1590.0,
+              548.0,
+              1752.0,
+              548.0,
+              1752.0,
+              592.0,
+              1590.0,
+              592.0
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/2/words/0"
+            ],
+            "page": 1,
+            "text": "Mariana",
+            "type": "string",
+            "valueString": "Mariana"
+          },
+          "Periodo": {
+            "boundingBox": [
+              250.0,
+              306.0,
+              560.0,
+              306.0,
+              560.0,
+              360.0,
+              250.0,
+              360.0
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/1/words/0",
+              "#/readResults/0/lines/1/words/1"
+            ],
+            "page": 1,
+            "text": "3\u00ba PER\u00cdODO",
+            "type": "string",
+            "valueString": "3\u00ba PER\u00cdODO"
+          },
+          "Skills": {
+            "boundingBox": [
+              1412.0,
+              633.0,
+              2083.0,
+              633.0,
+              2083.0,
+              678.0,
+              1412.0,
+              678.0
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/3/words/0",
+              "#/readResults/0/lines/3/words/1",
+              "#/readResults/0/lines/3/words/2"
+            ],
+            "page": 1,
+            "text": "Photoshop, Lightroom, Illustrator",
+            "type": "string",
+            "valueString": "Photoshop, Lightroom, Illustrator"
+          },
+          "Sobrenome": {
+            "boundingBox": [
+              1760.0,
+              546.0,
+              2103.0,
+              546.0,
+              2103.0,
+              593.0,
+              1760.0,
+              593.0
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/2/words/1",
+              "#/readResults/0/lines/2/words/2"
+            ],
+            "page": 1,
+            "text": "Campos Takeishi",
+            "type": "string",
+            "valueString": "Campos Takeishi"
+          },
+          "Telefone": {
+            "boundingBox": [
+              238.0,
+              1237.0,
+              552.0,
+              1237.0,
+              552.0,
+              1283.0,
+              238.0,
+              1283.0
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/7/words/0"
+            ],
+            "page": 1,
+            "text": "(35)99222-2610",
+            "type": "string",
+            "valueString": "(35)99222-2610"
+          }
+        },
+        "modelId": "808eb101-c6ac-422a-9298-679c47b2a0fc",
+        "pageRange": [
+          1,
+          1
+        ]
+      }
+    ],
+    "errors": [],
+    "pageResults": [
+      {
+        "page": 1,
+        "tables": []
+      }
+    ],
+    "readResults": [
+      {
+        "angle": 0,
+        "height": 1654,
+        "lines": [
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              246,
+              218,
+              675,
+              218,
+              675,
+              261,
+              246,
+              261
+            ],
+            "text": "ARTES VISUAIS",
+            "words": [
+              {
+                "boundingBox": [
+                  249,
+                  219,
+                  423,
+                  218,
+                  423,
+                  262,
+                  250,
+                  261
+                ],
+                "confidence": 0.996,
+                "text": "ARTES"
+              },
+              {
+                "boundingBox": [
+                  443,
+                  218,
+                  663,
+                  218,
+                  662,
+                  261,
+                  443,
+                  262
+                ],
+                "confidence": 0.994,
+                "text": "VISUAIS"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              247,
+              309,
+              579,
+              304,
+              580,
+              351,
+              248,
+              359
+            ],
+            "text": "3\u00ba PER\u00cdODO",
+            "words": [
+              {
+                "boundingBox": [
+                  250,
+                  315,
+                  304,
+                  311,
+                  305,
+                  359,
+                  251,
+                  360
+                ],
+                "confidence": 0.868,
+                "text": "3\u00ba"
+              },
+              {
+                "boundingBox": [
+                  313,
+                  310,
+                  560,
+                  306,
+                  559,
+                  353,
+                  315,
+                  359
+                ],
+                "confidence": 0.994,
+                "text": "PER\u00cdODO"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              1590,
+              546,
+              2102,
+              546,
+              2102,
+              592,
+              1590,
+              592
+            ],
+            "text": "Mariana Campos Takeishi",
+            "words": [
+              {
+                "boundingBox": [
+                  1590,
+                  548,
+                  1752,
+                  549,
+                  1752,
+                  592,
+                  1591,
+                  586
+                ],
+                "confidence": 0.994,
+                "text": "Mariana"
+              },
+              {
+                "boundingBox": [
+                  1760,
+                  549,
+                  1926,
+                  548,
+                  1927,
+                  593,
+                  1760,
+                  592
+                ],
+                "confidence": 0.996,
+                "text": "Campos"
+              },
+              {
+                "boundingBox": [
+                  1934,
+                  548,
+                  2103,
+                  546,
+                  2103,
+                  587,
+                  1935,
+                  592
+                ],
+                "confidence": 0.995,
+                "text": "Takeishi"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              1412,
+              632,
+              2082,
+              632,
+              2082,
+              676,
+              1412,
+              677
+            ],
+            "text": "Photoshop, Lightroom, Illustrator",
+            "words": [
+              {
+                "boundingBox": [
+                  1412,
+                  633,
+                  1633,
+                  633,
+                  1633,
+                  678,
+                  1413,
+                  677
+                ],
+                "confidence": 0.991,
+                "text": "Photoshop,"
+              },
+              {
+                "boundingBox": [
+                  1642,
+                  633,
+                  1866,
+                  633,
+                  1866,
+                  677,
+                  1642,
+                  678
+                ],
+                "confidence": 0.994,
+                "text": "Lightroom,"
+              },
+              {
+                "boundingBox": [
+                  1875,
+                  633,
+                  2082,
+                  634,
+                  2083,
+                  673,
+                  1875,
+                  677
+                ],
+                "confidence": 0.994,
+                "text": "Illustrator"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              1582,
+              720,
+              2106,
+              719,
+              2106,
+              763,
+              1582,
+              764
+            ],
+            "text": "Portugu\u00eas, Ingl\u00eas, Franc\u00eas",
+            "words": [
+              {
+                "boundingBox": [
+                  1583,
+                  721,
+                  1792,
+                  720,
+                  1792,
+                  764,
+                  1582,
+                  763
+                ],
+                "confidence": 0.772,
+                "text": "Portugu\u00eas,"
+              },
+              {
+                "boundingBox": [
+                  1800,
+                  720,
+                  1934,
+                  720,
+                  1934,
+                  764,
+                  1800,
+                  764
+                ],
+                "confidence": 0.392,
+                "text": "Ingl\u00eas,"
+              },
+              {
+                "boundingBox": [
+                  1943,
+                  720,
+                  2104,
+                  720,
+                  2104,
+                  761,
+                  1942,
+                  764
+                ],
+                "confidence": 0.8,
+                "text": "Franc\u00eas"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              1656,
+              803,
+              2102,
+              804,
+              2102,
+              846,
+              1656,
+              845
+            ],
+            "text": "takeishi.lc@gmail.com",
+            "words": [
+              {
+                "boundingBox": [
+                  1656,
+                  806,
+                  2084,
+                  805,
+                  2084,
+                  846,
+                  1657,
+                  845
+                ],
+                "confidence": 0.766,
+                "text": "takeishi.lc@gmail.com"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              776,
+              890,
+              2101,
+              891,
+              2101,
+              933,
+              776,
+              931
+            ],
+            "text": "https://www.linkedin.com/in/luana-campos-takeishi-204836200/",
+            "words": [
+              {
+                "boundingBox": [
+                  778,
+                  891,
+                  2101,
+                  892,
+                  2101,
+                  934,
+                  777,
+                  932
+                ],
+                "confidence": 0.903,
+                "text": "https://www.linkedin.com/in/luana-campos-takeishi-204836200/"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              238,
+              1238,
+              555,
+              1236,
+              556,
+              1278,
+              238,
+              1282
+            ],
+            "text": "(35)99222-2610",
+            "words": [
+              {
+                "boundingBox": [
+                  238,
+                  1239,
+                  552,
+                  1237,
+                  552,
+                  1277,
+                  239,
+                  1283
+                ],
+                "confidence": 0.968,
+                "text": "(35)99222-2610"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 0.878,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              233,
+              1320,
+              933,
+              1320,
+              932,
+              1362,
+              233,
+              1360
+            ],
+            "text": "Avenida do Jo\u00e3o, 11, Vila - BH/MG",
+            "words": [
+              {
+                "boundingBox": [
+                  237,
+                  1320,
+                  393,
+                  1321,
+                  391,
+                  1361,
+                  236,
+                  1359
+                ],
+                "confidence": 0.996,
+                "text": "Avenida"
+              },
+              {
+                "boundingBox": [
+                  400,
+                  1321,
+                  452,
+                  1321,
+                  451,
+                  1361,
+                  399,
+                  1361
+                ],
+                "confidence": 0.998,
+                "text": "do"
+              },
+              {
+                "boundingBox": [
+                  460,
+                  1321,
+                  571,
+                  1321,
+                  570,
+                  1362,
+                  459,
+                  1361
+                ],
+                "confidence": 0.769,
+                "text": "Jo\u00e3o,"
+              },
+              {
+                "boundingBox": [
+                  579,
+                  1321,
+                  634,
+                  1321,
+                  633,
+                  1362,
+                  578,
+                  1362
+                ],
+                "confidence": 0.998,
+                "text": "11,"
+              },
+              {
+                "boundingBox": [
+                  641,
+                  1321,
+                  719,
+                  1321,
+                  718,
+                  1362,
+                  641,
+                  1362
+                ],
+                "confidence": 0.994,
+                "text": "Vila"
+              },
+              {
+                "boundingBox": [
+                  729,
+                  1321,
+                  751,
+                  1321,
+                  751,
+                  1362,
+                  729,
+                  1362
+                ],
+                "confidence": 0.996,
+                "text": "-"
+              },
+              {
+                "boundingBox": [
+                  767,
+                  1321,
+                  920,
+                  1321,
+                  919,
+                  1362,
+                  766,
+                  1362
+                ],
+                "confidence": 0.996,
+                "text": "BH/MG"
+              }
+            ]
+          }
+        ],
+        "page": 1,
+        "unit": "pixel",
+        "width": 2339
+      }
+    ],
+    "version": "2.1.0"
+  },
+  "createdDateTime": "2021-05-28T00:47:21Z",
+  "lastUpdatedDateTime": "2021-05-28T00:47:29Z",
+  "status": "succeeded"
+}

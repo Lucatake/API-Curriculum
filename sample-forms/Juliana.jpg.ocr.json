@@ -1,0 +1,480 @@
+{
+    "status": "succeeded",
+    "createdDateTime": "2021-05-28T00:04:41Z",
+    "lastUpdatedDateTime": "2021-05-28T00:04:45Z",
+    "analyzeResult": {
+        "version": "2.1.0",
+        "readResults": [
+            {
+                "page": 1,
+                "angle": -0.0677,
+                "width": 2339,
+                "height": 1654,
+                "unit": "pixel",
+                "lines": [
+                    {
+                        "boundingBox": [
+                            248,
+                            218,
+                            661,
+                            218,
+                            661,
+                            263,
+                            248,
+                            266
+                        ],
+                        "text": "ARQUITETURA",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    248,
+                                    219,
+                                    645,
+                                    219,
+                                    644,
+                                    260,
+                                    248,
+                                    264
+                                ],
+                                "text": "ARQUITETURA",
+                                "confidence": 0.949
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            250,
+                            306,
+                            582,
+                            304,
+                            582,
+                            351,
+                            250,
+                            354
+                        ],
+                        "text": "8º PERÍODO",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    251,
+                                    310,
+                                    306,
+                                    308,
+                                    306,
+                                    354,
+                                    251,
+                                    354
+                                ],
+                                "text": "8º",
+                                "confidence": 0.815
+                            },
+                            {
+                                "boundingBox": [
+                                    316,
+                                    308,
+                                    564,
+                                    306,
+                                    563,
+                                    353,
+                                    315,
+                                    354
+                                ],
+                                "text": "PERÍODO",
+                                "confidence": 0.931
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1850,
+                            547,
+                            2106,
+                            547,
+                            2106,
+                            586,
+                            1850,
+                            586
+                        ],
+                        "text": "Juliana Silva",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1850,
+                                    548,
+                                    1994,
+                                    548,
+                                    1995,
+                                    587,
+                                    1851,
+                                    587
+                                ],
+                                "text": "Juliana",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    2003,
+                                    548,
+                                    2099,
+                                    547,
+                                    2099,
+                                    587,
+                                    2003,
+                                    587
+                                ],
+                                "text": "Silva",
+                                "confidence": 0.996
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1705,
+                            632,
+                            2105,
+                            633,
+                            2104,
+                            674,
+                            1705,
+                            673
+                        ],
+                        "text": "AutoCad, Illustrator",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1705,
+                                    634,
+                                    1887,
+                                    633,
+                                    1888,
+                                    674,
+                                    1706,
+                                    673
+                                ],
+                                "text": "AutoCad,",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    1895,
+                                    633,
+                                    2102,
+                                    635,
+                                    2103,
+                                    673,
+                                    1895,
+                                    674
+                                ],
+                                "text": "Illustrator",
+                                "confidence": 0.994
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1760,
+                            719,
+                            2107,
+                            718,
+                            2107,
+                            762,
+                            1760,
+                            763
+                        ],
+                        "text": "Português, Inglês",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1760,
+                                    721,
+                                    1971,
+                                    720,
+                                    1971,
+                                    763,
+                                    1761,
+                                    761
+                                ],
+                                "text": "Português,",
+                                "confidence": 0.862
+                            },
+                            {
+                                "boundingBox": [
+                                    1979,
+                                    720,
+                                    2106,
+                                    718,
+                                    2104,
+                                    762,
+                                    1979,
+                                    763
+                                ],
+                                "text": "Inglês",
+                                "confidence": 0.789
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1679,
+                            804,
+                            2102,
+                            804,
+                            2102,
+                            846,
+                            1679,
+                            847
+                        ],
+                        "text": "jujuSilva@gmail.com",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1681,
+                                    806,
+                                    2085,
+                                    805,
+                                    2086,
+                                    846,
+                                    1680,
+                                    848
+                                ],
+                                "text": "jujuSilva@gmail.com",
+                                "confidence": 0.986
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1231,
+                            889,
+                            2101,
+                            890,
+                            2101,
+                            933,
+                            1231,
+                            932
+                        ],
+                        "text": "https://www.linkedin.com/in/juliana-silva/",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1235,
+                                    891,
+                                    2100,
+                                    891,
+                                    2099,
+                                    934,
+                                    1234,
+                                    932
+                                ],
+                                "text": "https://www.linkedin.com/in/juliana-silva/",
+                                "confidence": 0.964
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            237,
+                            1237,
+                            552,
+                            1236,
+                            552,
+                            1281,
+                            237,
+                            1281
+                        ],
+                        "text": "(31)96632-2129",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    237,
+                                    1238,
+                                    545,
+                                    1240,
+                                    545,
+                                    1280,
+                                    237,
+                                    1282
+                                ],
+                                "text": "(31)96632-2129",
+                                "confidence": 0.985
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            233,
+                            1320,
+                            980,
+                            1320,
+                            980,
+                            1363,
+                            233,
+                            1363
+                        ],
+                        "text": "Rua A Boa, 1002, Eldorado - BH/MG",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    234,
+                                    1322,
+                                    311,
+                                    1322,
+                                    310,
+                                    1362,
+                                    234,
+                                    1361
+                                ],
+                                "text": "Rua",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    319,
+                                    1322,
+                                    341,
+                                    1322,
+                                    340,
+                                    1362,
+                                    318,
+                                    1362
+                                ],
+                                "text": "A",
+                                "confidence": 0.997
+                            },
+                            {
+                                "boundingBox": [
+                                    359,
+                                    1322,
+                                    452,
+                                    1321,
+                                    451,
+                                    1363,
+                                    358,
+                                    1362
+                                ],
+                                "text": "Boa,",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    459,
+                                    1321,
+                                    575,
+                                    1321,
+                                    574,
+                                    1364,
+                                    459,
+                                    1363
+                                ],
+                                "text": "1002,",
+                                "confidence": 0.996
+                            },
+                            {
+                                "boundingBox": [
+                                    582,
+                                    1321,
+                                    762,
+                                    1321,
+                                    761,
+                                    1364,
+                                    581,
+                                    1364
+                                ],
+                                "text": "Eldorado",
+                                "confidence": 0.995
+                            },
+                            {
+                                "boundingBox": [
+                                    775,
+                                    1321,
+                                    797,
+                                    1320,
+                                    796,
+                                    1364,
+                                    774,
+                                    1364
+                                ],
+                                "text": "-",
+                                "confidence": 0.996
+                            },
+                            {
+                                "boundingBox": [
+                                    810,
+                                    1320,
+                                    965,
+                                    1320,
+                                    964,
+                                    1363,
+                                    810,
+                                    1364
+                                ],
+                                "text": "BH/MG",
+                                "confidence": 0.996
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "pageResults": [
+            {
+                "page": 1,
+                "tables": []
+            }
+        ]
+    }
+}

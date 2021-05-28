@@ -1,0 +1,606 @@
+{
+    "status": "succeeded",
+    "createdDateTime": "2021-05-28T00:05:13Z",
+    "lastUpdatedDateTime": "2021-05-28T00:05:16Z",
+    "analyzeResult": {
+        "version": "2.1.0",
+        "readResults": [
+            {
+                "page": 1,
+                "angle": -0.0766,
+                "width": 2339,
+                "height": 1654,
+                "unit": "pixel",
+                "lines": [
+                    {
+                        "boundingBox": [
+                            250,
+                            212,
+                            981,
+                            212,
+                            981,
+                            264,
+                            250,
+                            263
+                        ],
+                        "text": "CIÊNCIA DA COMPUTAÇÃO",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    250,
+                                    215,
+                                    471,
+                                    217,
+                                    472,
+                                    262,
+                                    251,
+                                    261
+                                ],
+                                "text": "CIÊNCIA",
+                                "confidence": 0.932
+                            },
+                            {
+                                "boundingBox": [
+                                    487,
+                                    217,
+                                    561,
+                                    217,
+                                    562,
+                                    263,
+                                    488,
+                                    262
+                                ],
+                                "text": "DA",
+                                "confidence": 0.963
+                            },
+                            {
+                                "boundingBox": [
+                                    580,
+                                    217,
+                                    963,
+                                    212,
+                                    965,
+                                    265,
+                                    581,
+                                    263
+                                ],
+                                "text": "COMPUTAÇÃO",
+                                "confidence": 0.986
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            249,
+                            307,
+                            578,
+                            304,
+                            579,
+                            351,
+                            249,
+                            354
+                        ],
+                        "text": "2º PERÍODO",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    250,
+                                    313,
+                                    303,
+                                    310,
+                                    302,
+                                    354,
+                                    250,
+                                    354
+                                ],
+                                "text": "2º",
+                                "confidence": 0.802
+                            },
+                            {
+                                "boundingBox": [
+                                    314,
+                                    309,
+                                    561,
+                                    306,
+                                    561,
+                                    353,
+                                    314,
+                                    354
+                                ],
+                                "text": "PERÍODO",
+                                "confidence": 0.994
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1632,
+                            547,
+                            2102,
+                            546,
+                            2102,
+                            591,
+                            1632,
+                            593
+                        ],
+                        "text": "Luana Campos Takeishi",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1632,
+                                    549,
+                                    1752,
+                                    549,
+                                    1752,
+                                    592,
+                                    1632,
+                                    587
+                                ],
+                                "text": "Luana",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    1760,
+                                    549,
+                                    1925,
+                                    549,
+                                    1925,
+                                    593,
+                                    1760,
+                                    592
+                                ],
+                                "text": "Campos",
+                                "confidence": 0.996
+                            },
+                            {
+                                "boundingBox": [
+                                    1932,
+                                    549,
+                                    2102,
+                                    546,
+                                    2102,
+                                    587,
+                                    1932,
+                                    593
+                                ],
+                                "text": "Takeishi",
+                                "confidence": 0.995
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1334,
+                            633,
+                            2082,
+                            633,
+                            2082,
+                            675,
+                            1334,
+                            677
+                        ],
+                        "text": "C++, C, Java, Java Script, HTML, CSS",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1335,
+                                    636,
+                                    1430,
+                                    635,
+                                    1429,
+                                    676,
+                                    1335,
+                                    675
+                                ],
+                                "text": "C++,",
+                                "confidence": 0.991
+                            },
+                            {
+                                "boundingBox": [
+                                    1437,
+                                    635,
+                                    1481,
+                                    634,
+                                    1481,
+                                    676,
+                                    1437,
+                                    676
+                                ],
+                                "text": "C,",
+                                "confidence": 0.995
+                            },
+                            {
+                                "boundingBox": [
+                                    1489,
+                                    634,
+                                    1594,
+                                    634,
+                                    1593,
+                                    677,
+                                    1488,
+                                    676
+                                ],
+                                "text": "Java,",
+                                "confidence": 0.996
+                            },
+                            {
+                                "boundingBox": [
+                                    1602,
+                                    634,
+                                    1696,
+                                    633,
+                                    1696,
+                                    677,
+                                    1601,
+                                    677
+                                ],
+                                "text": "Java",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    1704,
+                                    633,
+                                    1835,
+                                    633,
+                                    1835,
+                                    677,
+                                    1704,
+                                    677
+                                ],
+                                "text": "Script,",
+                                "confidence": 0.996
+                            },
+                            {
+                                "boundingBox": [
+                                    1843,
+                                    633,
+                                    1989,
+                                    633,
+                                    1989,
+                                    676,
+                                    1842,
+                                    677
+                                ],
+                                "text": "HTML,",
+                                "confidence": 0.996
+                            },
+                            {
+                                "boundingBox": [
+                                    1997,
+                                    633,
+                                    2078,
+                                    633,
+                                    2078,
+                                    675,
+                                    1996,
+                                    676
+                                ],
+                                "text": "CSS",
+                                "confidence": 0.998
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1582,
+                            720,
+                            2106,
+                            719,
+                            2106,
+                            762,
+                            1582,
+                            764
+                        ],
+                        "text": "Português, Inglês, Francês",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1583,
+                                    722,
+                                    1791,
+                                    720,
+                                    1791,
+                                    764,
+                                    1582,
+                                    763
+                                ],
+                                "text": "Português,",
+                                "confidence": 0.783
+                            },
+                            {
+                                "boundingBox": [
+                                    1800,
+                                    720,
+                                    1936,
+                                    720,
+                                    1935,
+                                    764,
+                                    1799,
+                                    764
+                                ],
+                                "text": "Inglês,",
+                                "confidence": 0.679
+                            },
+                            {
+                                "boundingBox": [
+                                    1944,
+                                    720,
+                                    2105,
+                                    720,
+                                    2104,
+                                    761,
+                                    1943,
+                                    764
+                                ],
+                                "text": "Francês",
+                                "confidence": 0.917
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1656,
+                            803,
+                            2102,
+                            804,
+                            2102,
+                            846,
+                            1656,
+                            845
+                        ],
+                        "text": "takeishi.lc@gmail.com",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1656,
+                                    806,
+                                    2084,
+                                    805,
+                                    2084,
+                                    846,
+                                    1657,
+                                    845
+                                ],
+                                "text": "takeishi.lc@gmail.com",
+                                "confidence": 0.747
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            776,
+                            890,
+                            2101,
+                            891,
+                            2101,
+                            933,
+                            776,
+                            931
+                        ],
+                        "text": "https://www.linkedin.com/in/luana-campos-takeishi-204836200/",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    778,
+                                    891,
+                                    2101,
+                                    892,
+                                    2101,
+                                    934,
+                                    777,
+                                    932
+                                ],
+                                "text": "https://www.linkedin.com/in/luana-campos-takeishi-204836200/",
+                                "confidence": 0.857
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            238,
+                            1237,
+                            549,
+                            1236,
+                            550,
+                            1278,
+                            238,
+                            1281
+                        ],
+                        "text": "(35)99144-2610",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    239,
+                                    1238,
+                                    545,
+                                    1237,
+                                    545,
+                                    1278,
+                                    239,
+                                    1282
+                                ],
+                                "text": "(35)99144-2610",
+                                "confidence": 0.985
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            233,
+                            1319,
+                            1164,
+                            1320,
+                            1164,
+                            1362,
+                            233,
+                            1361
+                        ],
+                        "text": "Avenida do Contorno, 1454, Floresta - BH/MG",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    237,
+                                    1319,
+                                    394,
+                                    1321,
+                                    393,
+                                    1360,
+                                    236,
+                                    1358
+                                ],
+                                "text": "Avenida",
+                                "confidence": 0.996
+                            },
+                            {
+                                "boundingBox": [
+                                    403,
+                                    1321,
+                                    453,
+                                    1322,
+                                    452,
+                                    1361,
+                                    401,
+                                    1360
+                                ],
+                                "text": "do",
+                                "confidence": 0.999
+                            },
+                            {
+                                "boundingBox": [
+                                    461,
+                                    1322,
+                                    665,
+                                    1323,
+                                    664,
+                                    1363,
+                                    460,
+                                    1361
+                                ],
+                                "text": "Contorno,",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    673,
+                                    1323,
+                                    780,
+                                    1323,
+                                    779,
+                                    1363,
+                                    672,
+                                    1363
+                                ],
+                                "text": "1454,",
+                                "confidence": 0.988
+                            },
+                            {
+                                "boundingBox": [
+                                    788,
+                                    1323,
+                                    950,
+                                    1322,
+                                    950,
+                                    1363,
+                                    787,
+                                    1363
+                                ],
+                                "text": "Floresta",
+                                "confidence": 0.995
+                            },
+                            {
+                                "boundingBox": [
+                                    961,
+                                    1322,
+                                    983,
+                                    1322,
+                                    983,
+                                    1362,
+                                    961,
+                                    1363
+                                ],
+                                "text": "-",
+                                "confidence": 0.996
+                            },
+                            {
+                                "boundingBox": [
+                                    997,
+                                    1322,
+                                    1149,
+                                    1320,
+                                    1149,
+                                    1361,
+                                    996,
+                                    1362
+                                ],
+                                "text": "BH/MG",
+                                "confidence": 0.996
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "pageResults": [
+            {
+                "page": 1,
+                "tables": []
+            }
+        ]
+    }
+}

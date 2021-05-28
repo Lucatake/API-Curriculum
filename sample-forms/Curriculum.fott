@@ -1,0 +1,200 @@
+{
+    "sourceConnection": {
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZTA3NzE4OWRjMzBkODZiOTk1ODg5ZGY3N2RmYzUzNTc1NTZjODNiMWNjNzM4NDEyZWU3NThjYTk1NmJhMTdhZjQ4YmZhMWRmNjVhNTI0YmU3MGU0MTdkNTZmYTRiNmJmMmQ5YWU4NGYyNTY4MzdhYWQ0ODI1YWM3ZTE5NDY1M2VhMmUzMThlYWUxMzQwYjZmYWI2NTg3YzU0NTA1ZWM5OTZkYjJhZWYwMjhkM2Q0YjdjZjFhNjIyNTYzY2I2NzYyNjY1ZDdlOGVhNTczNjU2YjMxZGJkY2EzMzFmNWZhNWU5ODdhNTU3MTVkMzVlODgyMDc0ZTExNzU2Y2ZjZGZlOTg2N2IyNDBlN2IxZjMxOTYzYjgxM2FmYTc1ZTNhNjQ4YWVhNWRlY2M1MWVjOWE5ODZjY2Y5ZjI3Mzc2NjY0MmFiMmUzNWJkMDdlOTA3NzI1NWVmMjZjNzk0N2JmYjAyNzA3OGRlMzkwYTliODU1ZWQyOWU2MDk0MTVkZjliMjg2IiwiaXYiOiJiMWRjNWZlZWNiOGYwYmIxMjUzZDAwZDk2NTdjYzUzNiJ9"
+        },
+        "id": "7d6kS3B7c",
+        "name": "doors1",
+        "providerType": "azureBlobStorage"
+    },
+    "name": "Curriculum",
+    "apiUriBase": "https://doors1.cognitiveservices.azure.com/",
+    "apiKey": {
+        "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZGYzZGU3YzgxNjZiNmU0NDk1ZTJmMDIxYTA1N2MzYzU0NDg3MGZiNzhiNjM2ZmZjNTRmMjViOTRlM2I0OGRmMDE3MGVjMmJjNTE5OGM3ZmU0MTdiN2ZlZGRkNDQ3MzNhIiwiaXYiOiI5OTRmMGJiYzNhZThlYWE2ZWI2YTAyN2IyZjIwZjRkYSJ9"
+    },
+    "folderPath": "",
+    "securityToken": "Curriculum Token",
+    "version": "2.1.3",
+    "id": "b-oXs6Dsw",
+    "tags": [
+        {
+            "name": "Curso",
+            "color": "#CC543A",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 5
+        },
+        {
+            "name": "Periodo",
+            "color": "#7BA23F",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 5
+        },
+        {
+            "name": "Nome",
+            "color": "#58B2DC",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 5
+        },
+        {
+            "name": "Sobrenome",
+            "color": "#e98b2a",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 5
+        },
+        {
+            "name": "Skills",
+            "color": "#FFB11B",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 5
+        },
+        {
+            "name": "Idiomas",
+            "color": "#2E5C6E",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 5
+        },
+        {
+            "name": "Email",
+            "color": "#A96360",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 5
+        },
+        {
+            "name": "Linkedin",
+            "color": "#D7C4BB",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 5
+        },
+        {
+            "name": "Telefone",
+            "color": "#8F77B5",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 5
+        },
+        {
+            "name": "Endereco",
+            "color": "#EEA9A9",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 5
+        }
+    ],
+    "assets": {
+        "501eee12c2a6eca981362f3cad3427913df9e704e64d6362d1302181a398061e": {
+            "id": "501eee12c2a6eca981362f3cad3427913df9e704e64d6362d1302181a398061e",
+            "format": "jpg",
+            "state": 2,
+            "type": 1,
+            "name": "Enzo.jpg",
+            "path": "https://doors.blob.core.windows.net/treinamento/Enzo.jpg?sp=racwdl&st=2021-05-27T23:44:21Z&se=2021-08-02T07:44:21Z&sv=2020-02-10&sr=c&sig=9Tq5HVWS6Fzq5mHIIklZk3Z1wO%2B5junlwtlNTIFP194%3D",
+            "size": null,
+            "mimeType": "image/jpeg",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "bca6b4f8b376d4597a6e426e1a3611db90d1a6e3ff4d2907a5d7441934a54401": {
+            "id": "bca6b4f8b376d4597a6e426e1a3611db90d1a6e3ff4d2907a5d7441934a54401",
+            "format": "jpg",
+            "state": 2,
+            "type": 1,
+            "name": "Joao.jpg",
+            "path": "https://doors.blob.core.windows.net/treinamento/Joao.jpg?sp=racwdl&st=2021-05-27T23:44:21Z&se=2021-08-02T07:44:21Z&sv=2020-02-10&sr=c&sig=9Tq5HVWS6Fzq5mHIIklZk3Z1wO%2B5junlwtlNTIFP194%3D",
+            "size": null,
+            "mimeType": "image/jpeg",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "fcf398e08a4e43bb705adce57d2b3ea401da44cbb673f8bb760674c0a46ace49": {
+            "id": "fcf398e08a4e43bb705adce57d2b3ea401da44cbb673f8bb760674c0a46ace49",
+            "format": "jpg",
+            "state": 2,
+            "type": 1,
+            "name": "Juliana.jpg",
+            "path": "https://doors.blob.core.windows.net/treinamento/Juliana.jpg?sp=racwdl&st=2021-05-27T23:44:21Z&se=2021-08-02T07:44:21Z&sv=2020-02-10&sr=c&sig=9Tq5HVWS6Fzq5mHIIklZk3Z1wO%2B5junlwtlNTIFP194%3D",
+            "size": null,
+            "mimeType": "image/jpeg",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "a46ab05ff6023904e1e11b897bcbb1c65be533df86e1379c5a2dfde710831407": {
+            "id": "a46ab05ff6023904e1e11b897bcbb1c65be533df86e1379c5a2dfde710831407",
+            "format": "jpg",
+            "state": 2,
+            "type": 1,
+            "name": "Luana.jpg",
+            "path": "https://doors.blob.core.windows.net/treinamento/Luana.jpg?sp=racwdl&st=2021-05-27T23:44:21Z&se=2021-08-02T07:44:21Z&sv=2020-02-10&sr=c&sig=9Tq5HVWS6Fzq5mHIIklZk3Z1wO%2B5junlwtlNTIFP194%3D",
+            "size": null,
+            "mimeType": "image/jpeg",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "1eb9ae09b6293b561f78339723a0f64bf119bc601bddb3a3cfa75157da551854": {
+            "id": "1eb9ae09b6293b561f78339723a0f64bf119bc601bddb3a3cfa75157da551854",
+            "format": "jpg",
+            "state": 2,
+            "type": 1,
+            "name": "Maria.jpg",
+            "path": "https://doors.blob.core.windows.net/treinamento/Maria.jpg?sp=racwdl&st=2021-05-27T23:44:21Z&se=2021-08-02T07:44:21Z&sv=2020-02-10&sr=c&sig=9Tq5HVWS6Fzq5mHIIklZk3Z1wO%2B5junlwtlNTIFP194%3D",
+            "size": null,
+            "mimeType": "image/jpeg",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        }
+    },
+    "lastVisitedAssetId": "1eb9ae09b6293b561f78339723a0f64bf119bc601bddb3a3cfa75157da551854",
+    "recentModelRecords": [
+        {
+            "modelInfo": {
+                "modelId": "808eb101-c6ac-422a-9298-679c47b2a0fc",
+                "createdDateTime": "2021-05-28T00:07:30Z",
+                "modelName": "curriculum",
+                "isComposed": false
+            },
+            "averageAccuracy": 0.98,
+            "accuracies": {
+                "Curso": 0.995,
+                "Email": 0.995,
+                "Endereco": 0.995,
+                "Idiomas": 0.995,
+                "Linkedin": 0.995,
+                "Nome": 0.995,
+                "Periodo": 0.995,
+                "Skills": 0.995,
+                "Sobrenome": 0.8,
+                "Telefone": 0.995
+            },
+            "isComposed": false
+        }
+    ],
+    "trainRecord": {
+        "modelInfo": {
+            "modelId": "808eb101-c6ac-422a-9298-679c47b2a0fc",
+            "createdDateTime": "2021-05-28T00:07:30Z",
+            "modelName": "curriculum",
+            "isComposed": false
+        },
+        "averageAccuracy": 0.98,
+        "accuracies": {
+            "Curso": 0.995,
+            "Email": 0.995,
+            "Endereco": 0.995,
+            "Idiomas": 0.995,
+            "Linkedin": 0.995,
+            "Nome": 0.995,
+            "Periodo": 0.995,
+            "Skills": 0.995,
+            "Sobrenome": 0.8,
+            "Telefone": 0.995
+        }
+    },
+    "predictModelId": "808eb101-c6ac-422a-9298-679c47b2a0fc"
+}

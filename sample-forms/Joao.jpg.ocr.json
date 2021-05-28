@@ -1,0 +1,536 @@
+{
+    "status": "succeeded",
+    "createdDateTime": "2021-05-28T00:03:22Z",
+    "lastUpdatedDateTime": "2021-05-28T00:03:25Z",
+    "analyzeResult": {
+        "version": "2.1.0",
+        "readResults": [
+            {
+                "page": 1,
+                "angle": 0,
+                "width": 2339,
+                "height": 1654,
+                "unit": "pixel",
+                "lines": [
+                    {
+                        "boundingBox": [
+                            251,
+                            213,
+                            1017,
+                            212,
+                            1017,
+                            264,
+                            251,
+                            265
+                        ],
+                        "text": "SISTEMAS DA INFORMAÇÃO",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    252,
+                                    218,
+                                    522,
+                                    218,
+                                    522,
+                                    262,
+                                    251,
+                                    261
+                                ],
+                                "text": "SISTEMAS",
+                                "confidence": 0.95
+                            },
+                            {
+                                "boundingBox": [
+                                    537,
+                                    218,
+                                    607,
+                                    218,
+                                    608,
+                                    262,
+                                    537,
+                                    262
+                                ],
+                                "text": "DA",
+                                "confidence": 0.999
+                            },
+                            {
+                                "boundingBox": [
+                                    628,
+                                    218,
+                                    1001,
+                                    213,
+                                    1002,
+                                    265,
+                                    628,
+                                    262
+                                ],
+                                "text": "INFORMAÇÃO",
+                                "confidence": 0.949
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            250,
+                            306,
+                            580,
+                            304,
+                            581,
+                            352,
+                            250,
+                            354
+                        ],
+                        "text": "6º PERÍODO",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    250,
+                                    312,
+                                    304,
+                                    309,
+                                    305,
+                                    354,
+                                    251,
+                                    354
+                                ],
+                                "text": "6º",
+                                "confidence": 0.779
+                            },
+                            {
+                                "boundingBox": [
+                                    316,
+                                    308,
+                                    562,
+                                    306,
+                                    562,
+                                    353,
+                                    316,
+                                    354
+                                ],
+                                "text": "PERÍODO",
+                                "confidence": 0.994
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1879,
+                            547,
+                            2103,
+                            547,
+                            2103,
+                            587,
+                            1879,
+                            587
+                        ],
+                        "text": "João Pedro",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1880,
+                                    549,
+                                    1971,
+                                    548,
+                                    1971,
+                                    587,
+                                    1880,
+                                    588
+                                ],
+                                "text": "João",
+                                "confidence": 0.976
+                            },
+                            {
+                                "boundingBox": [
+                                    1979,
+                                    548,
+                                    2099,
+                                    549,
+                                    2098,
+                                    588,
+                                    1979,
+                                    587
+                                ],
+                                "text": "Pedro",
+                                "confidence": 0.996
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1315,
+                            632,
+                            2082,
+                            633,
+                            2082,
+                            675,
+                            1315,
+                            674
+                        ],
+                        "text": "PHP, Back-end, Front-end, Java Script",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1316,
+                                    634,
+                                    1418,
+                                    633,
+                                    1419,
+                                    674,
+                                    1316,
+                                    674
+                                ],
+                                "text": "PHP,",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    1426,
+                                    633,
+                                    1627,
+                                    633,
+                                    1628,
+                                    674,
+                                    1427,
+                                    674
+                                ],
+                                "text": "Back-end,",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    1635,
+                                    633,
+                                    1849,
+                                    633,
+                                    1850,
+                                    675,
+                                    1635,
+                                    674
+                                ],
+                                "text": "Front-end,",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    1857,
+                                    633,
+                                    1951,
+                                    634,
+                                    1952,
+                                    676,
+                                    1858,
+                                    675
+                                ],
+                                "text": "Java",
+                                "confidence": 0.979
+                            },
+                            {
+                                "boundingBox": [
+                                    1960,
+                                    634,
+                                    2082,
+                                    634,
+                                    2083,
+                                    676,
+                                    1961,
+                                    676
+                                ],
+                                "text": "Script",
+                                "confidence": 0.996
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1759,
+                            718,
+                            2104,
+                            717,
+                            2105,
+                            763,
+                            1759,
+                            764
+                        ],
+                        "text": "Português, Inglês",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1759,
+                                    721,
+                                    1969,
+                                    720,
+                                    1970,
+                                    765,
+                                    1759,
+                                    762
+                                ],
+                                "text": "Português,",
+                                "confidence": 0.991
+                            },
+                            {
+                                "boundingBox": [
+                                    1978,
+                                    720,
+                                    2102,
+                                    718,
+                                    2103,
+                                    763,
+                                    1978,
+                                    765
+                                ],
+                                "text": "Inglês",
+                                "confidence": 0.978
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1654,
+                            806,
+                            2102,
+                            804,
+                            2102,
+                            845,
+                            1654,
+                            849
+                        ],
+                        "text": "joaopedro@gmail.com",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1654,
+                                    808,
+                                    2087,
+                                    805,
+                                    2088,
+                                    846,
+                                    1654,
+                                    850
+                                ],
+                                "text": "joaopedro@gmail.com",
+                                "confidence": 0.959
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1275,
+                            889,
+                            2103,
+                            890,
+                            2102,
+                            934,
+                            1275,
+                            932
+                        ],
+                        "text": "https://www.linkedin.com/in/joaopedro/",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1277,
+                                    891,
+                                    2103,
+                                    892,
+                                    2102,
+                                    935,
+                                    1275,
+                                    932
+                                ],
+                                "text": "https://www.linkedin.com/in/joaopedro/",
+                                "confidence": 0.938
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            237,
+                            1237,
+                            557,
+                            1238,
+                            557,
+                            1282,
+                            237,
+                            1281
+                        ],
+                        "text": "(31)99222-2999",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    238,
+                                    1238,
+                                    555,
+                                    1241,
+                                    554,
+                                    1281,
+                                    238,
+                                    1282
+                                ],
+                                "text": "(31)99222-2999",
+                                "confidence": 0.952
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            234,
+                            1320,
+                            1005,
+                            1320,
+                            1005,
+                            1361,
+                            234,
+                            1361
+                        ],
+                        "text": "Rua Oliveira, 122, Liberdade - BH/MG",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    235,
+                                    1321,
+                                    311,
+                                    1321,
+                                    310,
+                                    1360,
+                                    234,
+                                    1359
+                                ],
+                                "text": "Rua",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    319,
+                                    1321,
+                                    493,
+                                    1320,
+                                    493,
+                                    1362,
+                                    318,
+                                    1360
+                                ],
+                                "text": "Oliveira,",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    501,
+                                    1320,
+                                    583,
+                                    1320,
+                                    582,
+                                    1362,
+                                    500,
+                                    1362
+                                ],
+                                "text": "122,",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    591,
+                                    1320,
+                                    794,
+                                    1320,
+                                    793,
+                                    1362,
+                                    590,
+                                    1362
+                                ],
+                                "text": "Liberdade",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    805,
+                                    1320,
+                                    827,
+                                    1320,
+                                    826,
+                                    1362,
+                                    804,
+                                    1362
+                                ],
+                                "text": "-",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    840,
+                                    1320,
+                                    993,
+                                    1321,
+                                    993,
+                                    1361,
+                                    839,
+                                    1362
+                                ],
+                                "text": "BH/MG",
+                                "confidence": 0.996
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "pageResults": [
+            {
+                "page": 1,
+                "tables": []
+            }
+        ]
+    }
+}

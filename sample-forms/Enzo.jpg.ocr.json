@@ -1,0 +1,466 @@
+{
+    "status": "succeeded",
+    "createdDateTime": "2021-05-27T23:58:27Z",
+    "lastUpdatedDateTime": "2021-05-27T23:58:31Z",
+    "analyzeResult": {
+        "version": "2.1.0",
+        "readResults": [
+            {
+                "page": 1,
+                "angle": -0.1102,
+                "width": 2339,
+                "height": 1654,
+                "unit": "pixel",
+                "lines": [
+                    {
+                        "boundingBox": [
+                            248,
+                            218,
+                            543,
+                            218,
+                            543,
+                            260,
+                            248,
+                            260
+                        ],
+                        "text": "MEDICINA",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    248,
+                                    219,
+                                    524,
+                                    219,
+                                    523,
+                                    261,
+                                    249,
+                                    261
+                                ],
+                                "text": "MEDICINA",
+                                "confidence": 0.975
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            248,
+                            308,
+                            573,
+                            304,
+                            574,
+                            351,
+                            248,
+                            354
+                        ],
+                        "text": "1º PERÍODO",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    248,
+                                    315,
+                                    295,
+                                    311,
+                                    296,
+                                    354,
+                                    249,
+                                    354
+                                ],
+                                "text": "1º",
+                                "confidence": 0.772
+                            },
+                            {
+                                "boundingBox": [
+                                    309,
+                                    310,
+                                    552,
+                                    306,
+                                    552,
+                                    352,
+                                    310,
+                                    354
+                                ],
+                                "text": "PERÍODO",
+                                "confidence": 0.991
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1846,
+                            547,
+                            2106,
+                            547,
+                            2106,
+                            586,
+                            1846,
+                            587
+                        ],
+                        "text": "Enzo Gabriel",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1847,
+                                    550,
+                                    1942,
+                                    548,
+                                    1941,
+                                    587,
+                                    1846,
+                                    586
+                                ],
+                                "text": "Enzo",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    1952,
+                                    548,
+                                    2106,
+                                    548,
+                                    2106,
+                                    587,
+                                    1951,
+                                    587
+                                ],
+                                "text": "Gabriel",
+                                "confidence": 0.994
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1852,
+                            634,
+                            2103,
+                            637,
+                            2102,
+                            677,
+                            1852,
+                            673
+                        ],
+                        "text": "Tirar sangue",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1853,
+                                    634,
+                                    1951,
+                                    635,
+                                    1951,
+                                    676,
+                                    1853,
+                                    672
+                                ],
+                                "text": "Tirar",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    1959,
+                                    635,
+                                    2102,
+                                    639,
+                                    2102,
+                                    676,
+                                    1959,
+                                    676
+                                ],
+                                "text": "sangue",
+                                "confidence": 0.996
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1760,
+                            719,
+                            2107,
+                            718,
+                            2107,
+                            762,
+                            1760,
+                            763
+                        ],
+                        "text": "Português, Inglês",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1760,
+                                    721,
+                                    1970,
+                                    720,
+                                    1969,
+                                    763,
+                                    1761,
+                                    761
+                                ],
+                                "text": "Português,",
+                                "confidence": 0.936
+                            },
+                            {
+                                "boundingBox": [
+                                    1978,
+                                    720,
+                                    2105,
+                                    718,
+                                    2103,
+                                    762,
+                                    1977,
+                                    763
+                                ],
+                                "text": "Inglês",
+                                "confidence": 0.802
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1718,
+                            810,
+                            2102,
+                            804,
+                            2103,
+                            845,
+                            1718,
+                            850
+                        ],
+                        "text": "enzogg@gmail.com",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1718,
+                                    813,
+                                    2084,
+                                    805,
+                                    2085,
+                                    846,
+                                    1718,
+                                    850
+                                ],
+                                "text": "enzogg@gmail.com",
+                                "confidence": 0.876
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            1311,
+                            890,
+                            2102,
+                            890,
+                            2102,
+                            934,
+                            1311,
+                            933
+                        ],
+                        "text": "https://www.linkedin.com/in/enzogab/",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1313,
+                                    892,
+                                    2101,
+                                    891,
+                                    2100,
+                                    935,
+                                    1312,
+                                    932
+                                ],
+                                "text": "https://www.linkedin.com/in/enzogab/",
+                                "confidence": 0.979
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            235,
+                            1235,
+                            551,
+                            1236,
+                            551,
+                            1281,
+                            235,
+                            1280
+                        ],
+                        "text": "(31)98442-2129",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    236,
+                                    1236,
+                                    549,
+                                    1240,
+                                    548,
+                                    1279,
+                                    235,
+                                    1281
+                                ],
+                                "text": "(31)98442-2129",
+                                "confidence": 0.994
+                            }
+                        ]
+                    },
+                    {
+                        "boundingBox": [
+                            234,
+                            1321,
+                            900,
+                            1319,
+                            900,
+                            1363,
+                            234,
+                            1365
+                        ],
+                        "text": "Rua Opa, 992, Lourdes - BH/MG",
+                        "appearance": {
+                            "style": {
+                                "name": "other",
+                                "confidence": 0.878
+                            }
+                        },
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    236,
+                                    1322,
+                                    311,
+                                    1322,
+                                    310,
+                                    1365,
+                                    235,
+                                    1365
+                                ],
+                                "text": "Rua",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    319,
+                                    1322,
+                                    418,
+                                    1322,
+                                    417,
+                                    1365,
+                                    318,
+                                    1365
+                                ],
+                                "text": "Opa,",
+                                "confidence": 0.993
+                            },
+                            {
+                                "boundingBox": [
+                                    426,
+                                    1322,
+                                    513,
+                                    1322,
+                                    512,
+                                    1365,
+                                    425,
+                                    1365
+                                ],
+                                "text": "992,",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    521,
+                                    1322,
+                                    690,
+                                    1321,
+                                    689,
+                                    1365,
+                                    521,
+                                    1365
+                                ],
+                                "text": "Lourdes",
+                                "confidence": 0.994
+                            },
+                            {
+                                "boundingBox": [
+                                    698,
+                                    1321,
+                                    723,
+                                    1321,
+                                    722,
+                                    1365,
+                                    697,
+                                    1365
+                                ],
+                                "text": "-",
+                                "confidence": 0.996
+                            },
+                            {
+                                "boundingBox": [
+                                    735,
+                                    1321,
+                                    888,
+                                    1320,
+                                    888,
+                                    1364,
+                                    734,
+                                    1365
+                                ],
+                                "text": "BH/MG",
+                                "confidence": 0.994
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "pageResults": [
+            {
+                "page": 1,
+                "tables": []
+            }
+        ]
+    }
+}

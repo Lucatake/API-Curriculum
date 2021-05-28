@@ -1,0 +1,838 @@
+{
+  "analyzeResult": {
+    "documentResults": [
+      {
+        "docType": "custom:curriculum",
+        "docTypeConfidence": 0.995,
+        "fields": {
+          "Curso": {
+            "boundingBox": [
+              1.265,
+              1.05,
+              4.89,
+              1.05,
+              4.89,
+              1.335,
+              1.265,
+              1.335
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/0/words/0",
+              "#/readResults/0/lines/0/words/1",
+              "#/readResults/0/lines/0/words/2"
+            ],
+            "page": 1,
+            "text": "CI\u00caNCIA DA COMPUTA\u00c7\u00c3O",
+            "type": "string",
+            "valueString": "CI\u00caNCIA DA COMPUTA\u00c7\u00c3O"
+          },
+          "Email": {
+            "boundingBox": [
+              8.285,
+              4.025,
+              10.505,
+              4.025,
+              10.505,
+              4.24,
+              8.285,
+              4.24
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/5/words/0"
+            ],
+            "page": 1,
+            "text": "takeishi.lc@gmail.com",
+            "type": "string",
+            "valueString": "takeishi.lc@gmail.com"
+          },
+          "Endereco": {
+            "boundingBox": [
+              1.18,
+              6.605,
+              5.81,
+              6.605,
+              5.81,
+              6.82,
+              1.18,
+              6.82
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/8/words/0",
+              "#/readResults/0/lines/8/words/1",
+              "#/readResults/0/lines/8/words/2",
+              "#/readResults/0/lines/8/words/3",
+              "#/readResults/0/lines/8/words/4",
+              "#/readResults/0/lines/8/words/5",
+              "#/readResults/0/lines/8/words/6"
+            ],
+            "page": 1,
+            "text": "Avenida do Contorno, 1454, Floresta \u2013 BH/MG",
+            "type": "string",
+            "valueString": "Avenida do Contorno, 1454, Floresta \u2013 BH/MG"
+          },
+          "Idiomas": {
+            "boundingBox": [
+              7.93,
+              3.6,
+              10.505,
+              3.6,
+              10.505,
+              3.815,
+              7.93,
+              3.815
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/4/words/0",
+              "#/readResults/0/lines/4/words/1",
+              "#/readResults/0/lines/4/words/2"
+            ],
+            "page": 1,
+            "text": "Portugu\u00eas, Ingl\u00eas, Franc\u00eas",
+            "type": "string",
+            "valueString": "Portugu\u00eas, Ingl\u00eas, Franc\u00eas"
+          },
+          "Linkedin": {
+            "boundingBox": [
+              3.9,
+              4.455,
+              10.505,
+              4.455,
+              10.505,
+              4.675,
+              3.9,
+              4.675
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/6/words/0"
+            ],
+            "page": 1,
+            "text": "https://www.linkedin.com/in/luana-campos-takeishi-204836200/",
+            "type": "string",
+            "valueString": "https://www.linkedin.com/in/luana-campos-takeishi-204836200/"
+          },
+          "Nome": {
+            "boundingBox": [
+              8.175,
+              2.755,
+              8.78,
+              2.755,
+              8.78,
+              2.91,
+              8.175,
+              2.91
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/2/words/0"
+            ],
+            "page": 1,
+            "text": "Luana",
+            "type": "string",
+            "valueString": "Luana"
+          },
+          "Periodo": {
+            "boundingBox": [
+              1.27,
+              1.515,
+              2.89,
+              1.515,
+              2.89,
+              1.75,
+              1.27,
+              1.75
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/1/words/0",
+              "#/readResults/0/lines/1/words/1"
+            ],
+            "page": 1,
+            "text": "2\u00ba PER\u00cdODO",
+            "type": "string",
+            "valueString": "2\u00ba PER\u00cdODO"
+          },
+          "Skills": {
+            "boundingBox": [
+              6.685,
+              3.17,
+              10.395,
+              3.17,
+              10.395,
+              3.385,
+              6.685,
+              3.385
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/3/words/0",
+              "#/readResults/0/lines/3/words/1",
+              "#/readResults/0/lines/3/words/2",
+              "#/readResults/0/lines/3/words/3",
+              "#/readResults/0/lines/3/words/4",
+              "#/readResults/0/lines/3/words/5",
+              "#/readResults/0/lines/3/words/6"
+            ],
+            "page": 1,
+            "text": "C++, C, Java, Java Script, HTML, CSS",
+            "type": "string",
+            "valueString": "C++, C, Java, Java Script, HTML, CSS"
+          },
+          "Sobrenome": {
+            "boundingBox": [
+              8.845,
+              2.74,
+              10.505,
+              2.74,
+              10.505,
+              2.955,
+              8.845,
+              2.955
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/2/words/1",
+              "#/readResults/0/lines/2/words/2"
+            ],
+            "page": 1,
+            "text": "Campos Takeishi",
+            "type": "string",
+            "valueString": "Campos Takeishi"
+          },
+          "Telefone": {
+            "boundingBox": [
+              1.195,
+              6.175,
+              2.74,
+              6.175,
+              2.74,
+              6.38,
+              1.195,
+              6.38
+            ],
+            "confidence": 0.995,
+            "elements": [
+              "#/readResults/0/lines/7/words/0"
+            ],
+            "page": 1,
+            "text": "(35)99144-2610",
+            "type": "string",
+            "valueString": "(35)99144-2610"
+          }
+        },
+        "modelId": "808eb101-c6ac-422a-9298-679c47b2a0fc",
+        "pageRange": [
+          1,
+          1
+        ]
+      }
+    ],
+    "errors": [],
+    "pageResults": [
+      {
+        "page": 1,
+        "tables": []
+      }
+    ],
+    "readResults": [
+      {
+        "angle": 0,
+        "height": 8.2639,
+        "lines": [
+          {
+            "appearance": {
+              "style": {
+                "confidence": 1,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              1.2658,
+              1.0512,
+              4.8907,
+              1.0512,
+              4.8907,
+              1.3332,
+              1.2658,
+              1.3332
+            ],
+            "text": "CI\u00caNCIA DA COMPUTA\u00c7\u00c3O",
+            "words": [
+              {
+                "boundingBox": [
+                  1.2658,
+                  1.0512,
+                  2.424,
+                  1.0512,
+                  2.424,
+                  1.2837,
+                  1.2658,
+                  1.2837
+                ],
+                "confidence": 1,
+                "text": "CI\u00caNCIA"
+              },
+              {
+                "boundingBox": [
+                  2.4888,
+                  1.1034,
+                  2.8855,
+                  1.1034,
+                  2.8855,
+                  1.2792,
+                  2.4888,
+                  1.2792
+                ],
+                "confidence": 1,
+                "text": "DA"
+              },
+              {
+                "boundingBox": [
+                  2.9508,
+                  1.0512,
+                  4.8907,
+                  1.0512,
+                  4.8907,
+                  1.3332,
+                  2.9508,
+                  1.3332
+                ],
+                "confidence": 1,
+                "text": "COMPUTA\u00c7\u00c3O"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 1,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              1.2705,
+              1.5162,
+              2.8917,
+              1.5162,
+              2.8917,
+              1.7487,
+              1.2705,
+              1.7487
+            ],
+            "text": "2\u00ba PER\u00cdODO",
+            "words": [
+              {
+                "boundingBox": [
+                  1.2705,
+                  1.5664,
+                  1.5405,
+                  1.5664,
+                  1.5405,
+                  1.7442,
+                  1.2705,
+                  1.7442
+                ],
+                "confidence": 1,
+                "text": "2\u00ba"
+              },
+              {
+                "boundingBox": [
+                  1.6235,
+                  1.5162,
+                  2.8917,
+                  1.5162,
+                  2.8917,
+                  1.7487,
+                  1.6235,
+                  1.7487
+                ],
+                "confidence": 1,
+                "text": "PER\u00cdODO"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 1,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              8.1749,
+              2.7403,
+              10.5044,
+              2.7403,
+              10.5044,
+              2.9558,
+              8.1749,
+              2.9558
+            ],
+            "text": "Luana Campos Takeishi",
+            "words": [
+              {
+                "boundingBox": [
+                  8.1749,
+                  2.7543,
+                  8.7779,
+                  2.7543,
+                  8.7779,
+                  2.9104,
+                  8.1749,
+                  2.9104
+                ],
+                "confidence": 1,
+                "text": "Luana"
+              },
+              {
+                "boundingBox": [
+                  8.8426,
+                  2.751,
+                  9.6176,
+                  2.751,
+                  9.6176,
+                  2.9558,
+                  8.8426,
+                  2.9558
+                ],
+                "confidence": 1,
+                "text": "Campos"
+              },
+              {
+                "boundingBox": [
+                  9.6818,
+                  2.7403,
+                  10.5044,
+                  2.7403,
+                  10.5044,
+                  2.9106,
+                  9.6818,
+                  2.9106
+                ],
+                "confidence": 1,
+                "text": "Takeishi"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 1,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              6.6844,
+              3.1722,
+              10.393,
+              3.1722,
+              10.393,
+              3.3841,
+              6.6844,
+              3.3841
+            ],
+            "text": "C++, C, Java, Java Script, HTML, CSS",
+            "words": [
+              {
+                "boundingBox": [
+                  6.6844,
+                  3.1793,
+                  7.1503,
+                  3.1793,
+                  7.1503,
+                  3.3744,
+                  6.6844,
+                  3.3744
+                ],
+                "confidence": 1,
+                "text": "C++,"
+              },
+              {
+                "boundingBox": [
+                  7.2257,
+                  3.1793,
+                  7.4059,
+                  3.1793,
+                  7.4059,
+                  3.3744,
+                  7.2257,
+                  3.3744
+                ],
+                "confidence": 1,
+                "text": "C,"
+              },
+              {
+                "boundingBox": [
+                  7.474,
+                  3.1826,
+                  7.969,
+                  3.1826,
+                  7.969,
+                  3.3744,
+                  7.474,
+                  3.3744
+                ],
+                "confidence": 1,
+                "text": "Java,"
+              },
+              {
+                "boundingBox": [
+                  8.037,
+                  3.1826,
+                  8.483,
+                  3.1826,
+                  8.483,
+                  3.3398,
+                  8.037,
+                  3.3398
+                ],
+                "confidence": 1,
+                "text": "Java"
+              },
+              {
+                "boundingBox": [
+                  8.5495,
+                  3.1722,
+                  9.1707,
+                  3.1722,
+                  9.1707,
+                  3.3841,
+                  8.5495,
+                  3.3841
+                ],
+                "confidence": 1,
+                "text": "Script,"
+              },
+              {
+                "boundingBox": [
+                  9.2483,
+                  3.1826,
+                  9.9421,
+                  3.1826,
+                  9.9421,
+                  3.3744,
+                  9.2483,
+                  3.3744
+                ],
+                "confidence": 1,
+                "text": "HTML,"
+              },
+              {
+                "boundingBox": [
+                  10.019,
+                  3.1793,
+                  10.393,
+                  3.1793,
+                  10.393,
+                  3.3396,
+                  10.019,
+                  3.3396
+                ],
+                "confidence": 1,
+                "text": "CSS"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 1,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              7.9291,
+              3.5987,
+              10.5041,
+              3.5987,
+              10.5041,
+              3.8141,
+              7.9291,
+              3.8141
+            ],
+            "text": "Portugu\u00eas, Ingl\u00eas, Franc\u00eas",
+            "words": [
+              {
+                "boundingBox": [
+                  7.9291,
+                  3.5993,
+                  8.9611,
+                  3.5993,
+                  8.9611,
+                  3.8141,
+                  7.9291,
+                  3.8141
+                ],
+                "confidence": 1,
+                "text": "Portugu\u00eas,"
+              },
+              {
+                "boundingBox": [
+                  9.0384,
+                  3.5987,
+                  9.6744,
+                  3.5987,
+                  9.6744,
+                  3.8141,
+                  9.0384,
+                  3.8141
+                ],
+                "confidence": 1,
+                "text": "Ingl\u00eas,"
+              },
+              {
+                "boundingBox": [
+                  9.7507,
+                  3.5993,
+                  10.5041,
+                  3.5993,
+                  10.5041,
+                  3.7689,
+                  9.7507,
+                  3.7689
+                ],
+                "confidence": 1,
+                "text": "Franc\u00eas"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 1,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              8.2856,
+              4.027,
+              10.5064,
+              4.027,
+              10.5064,
+              4.2425,
+              8.2856,
+              4.2425
+            ],
+            "text": "takeishi.lc@gmail.com",
+            "words": [
+              {
+                "boundingBox": [
+                  8.2856,
+                  4.027,
+                  10.5064,
+                  4.027,
+                  10.5064,
+                  4.2425,
+                  8.2856,
+                  4.2425
+                ],
+                "confidence": 1,
+                "text": "takeishi.lc@gmail.com"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 1,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              3.8997,
+              4.4573,
+              10.5031,
+              4.4573,
+              10.5031,
+              4.6727,
+              3.8997,
+              4.6727
+            ],
+            "text": "https://www.linkedin.com/in/luana-campos-takeishi-204836200/",
+            "words": [
+              {
+                "boundingBox": [
+                  3.8997,
+                  4.4573,
+                  10.5031,
+                  4.4573,
+                  10.5031,
+                  4.6727,
+                  3.8997,
+                  4.6727
+                ],
+                "confidence": 1,
+                "text": "https://www.linkedin.com/in/luana-campos-takeishi-204836200/"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 1,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              1.1943,
+              6.1761,
+              2.7381,
+              6.1761,
+              2.7381,
+              6.3818,
+              1.1943,
+              6.3818
+            ],
+            "text": "(35)99144-2610",
+            "words": [
+              {
+                "boundingBox": [
+                  1.1943,
+                  6.1761,
+                  2.7381,
+                  6.1761,
+                  2.7381,
+                  6.3818,
+                  1.1943,
+                  6.3818
+                ],
+                "confidence": 1,
+                "text": "(35)99144-2610"
+              }
+            ]
+          },
+          {
+            "appearance": {
+              "style": {
+                "confidence": 1,
+                "name": "other"
+              }
+            },
+            "boundingBox": [
+              1.1775,
+              6.6044,
+              5.8099,
+              6.6044,
+              5.8099,
+              6.8176,
+              1.1775,
+              6.8176
+            ],
+            "text": "Avenida do Contorno, 1454, Floresta \u2013 BH/MG",
+            "words": [
+              {
+                "boundingBox": [
+                  1.1775,
+                  6.6044,
+                  1.981,
+                  6.6044,
+                  1.981,
+                  6.7748,
+                  1.1775,
+                  6.7748
+                ],
+                "confidence": 1,
+                "text": "Avenida"
+              },
+              {
+                "boundingBox": [
+                  2.0444,
+                  6.6044,
+                  2.2756,
+                  6.6044,
+                  2.2756,
+                  6.775,
+                  2.0444,
+                  6.775
+                ],
+                "confidence": 1,
+                "text": "do"
+              },
+              {
+                "boundingBox": [
+                  2.3465,
+                  6.615,
+                  3.3195,
+                  6.615,
+                  3.3195,
+                  6.8101,
+                  2.3465,
+                  6.8101
+                ],
+                "confidence": 1,
+                "text": "Contorno,"
+              },
+              {
+                "boundingBox": [
+                  3.4007,
+                  6.6522,
+                  3.8948,
+                  6.6522,
+                  3.8948,
+                  6.8112,
+                  3.4007,
+                  6.8112
+                ],
+                "confidence": 1,
+                "text": "1454,"
+              },
+              {
+                "boundingBox": [
+                  3.971,
+                  6.6044,
+                  4.7595,
+                  6.6044,
+                  4.7595,
+                  6.775,
+                  3.971,
+                  6.775
+                ],
+                "confidence": 1,
+                "text": "Floresta"
+              },
+              {
+                "boundingBox": [
+                  4.8284,
+                  6.7037,
+                  4.9488,
+                  6.7037,
+                  4.9488,
+                  6.7181,
+                  4.8284,
+                  6.7181
+                ],
+                "confidence": 1,
+                "text": "\u2013"
+              },
+              {
+                "boundingBox": [
+                  5.0242,
+                  6.607,
+                  5.8099,
+                  6.607,
+                  5.8099,
+                  6.8176,
+                  5.0242,
+                  6.8176
+                ],
+                "confidence": 1,
+                "text": "BH/MG"
+              }
+            ]
+          }
+        ],
+        "page": 1,
+        "unit": "inch",
+        "width": 11.6806
+      }
+    ],
+    "version": "2.1.0"
+  },
+  "createdDateTime": "2021-05-28T00:52:30Z",
+  "lastUpdatedDateTime": "2021-05-28T00:52:38Z",
+  "status": "succeeded"
+}
