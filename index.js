@@ -44,7 +44,7 @@ window.onload = () =>{
 function postData(input) {
     $.ajax({
         type: "POST",
-        url: "/api.py",
+        url: "C:\Temp\Prog HTML\API-Curriculum\API-Curriculum\Python\analyze-808e.py",
         data: { param: input },
         success: callbackFunc
     });
