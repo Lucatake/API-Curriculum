@@ -1,2 +1,2 @@
-<?php require_once ("index.html"),
-  require("api.py")?> 
+<?php require_once ("index.html")?>
+<?php require("api.py")?> 
