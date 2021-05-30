@@ -1,2 +1,1 @@
-<?php require_once ("index.html")?>
-<?php require("api.py")?> 
+<?php require_once("Python\analyze-808e.py")?> 

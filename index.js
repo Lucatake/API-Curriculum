@@ -13,13 +13,13 @@ window.onload = () =>{
         //var x = evento;
     }*/
     btn_pdf.onclick = function(){
-        var idElementForFiles = 'file-input';
-        var formdata = new FormData();
-        var uploadedFiles = document.getElementById(idElementForFiles);
-        formdata.append(uploadedFiles.name, uploadedFiles);
+        //var idElementForFiles = 'file-input';
+        //var formdata = new FormData();
+        //var uploadedFiles = document.getElementById(idElementForFiles);
+        //formdata.append(uploadedFiles.name, uploadedFiles);
         
         mostra();
-        pdfExtractor(formdata);
+        //pdfExtractor(formdata);
     } 
 
     /*arq.onchange = (event) => {
@@ -44,7 +44,7 @@ window.onload = () =>{
 function postData(input) {
     $.ajax({
         type: "POST",
-        url: "C:\Temp\Prog HTML\API-Curriculum\API-Curriculum\Python\analyze-808e.py",
+        url: "../Python/analyze-808e.py",
         data: { param: input },
         success: callbackFunc
     });
