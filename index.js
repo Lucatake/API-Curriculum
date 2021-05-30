@@ -63,7 +63,7 @@ function fileSelected(event){
         reader.readAsBinaryString(file);
         reader.onload = function() {
             //postData(btoa(reader.result));
-            pdfExtractor(btoa(reader.result));
+            pdfExtractor(window.btoa(reader.result));
             //console.log(btoa(reader.result));
         };
         reader.onerror = function() {
@@ -128,24 +128,20 @@ function getJson(){
 function pdfExtractor(formdata) {
     var params = {
         // Request parameters
-        "includeTextDetails": formdata,
+        "includeTextDetails": "",//formdata,
     };
     $.ajax({
-        endpoint: "https://doors1.cognitiveservices.azure.com",
-        apim_key: "70b2796924584d8da912296e8dea613a",
-        model_id: "808eb101-c6ac-422a-9298-679c47b2a0fc",
-        API_version: "v2.1-preview.3",
         post_url:"https://doors1.cognitiveservices.azure.com/formrecognizer/v2.1-preview.3/custom/models/808eb101-c6ac-422a-9298-679c47b2a0fc/analyze?",
         
         url: "https://doors1.cognitiveservices.azure.com/formrecognizer/v2.1-preview.3/custom/models/808eb101-c6ac-422a-9298-679c47b2a0fc/analyze?" + $.param(params),
         beforeSend: function(xhrObj){
             // Request headers
             xhrObj.setRequestHeader("Content-Type","application/pdf");
-            xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","70b2796924584d8da912296e8dea613a");
+            xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","267a6513a34b45bb8c045a7099016532");
         },
         type: "POST",
         // Request body
-        data: formdata,
+        data: formdata.toString(),
     })
     .done(function(data) {
         alert("success");
