@@ -44,7 +44,7 @@ window.onload = () =>{
 function postData(input) {
     $.ajax({
         type: "POST",
-        url: "https://github.com/Lucatake/API-Curriculum.github.io/blob/main/Python/analyze-808e.py",
+        url: "api.py",
         data: { param: input },
         success: callbackFunc
     });
