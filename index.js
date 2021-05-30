@@ -44,7 +44,7 @@ window.onload = () =>{
 function postData(input) {
     $.ajax({
         type: "POST",
-        url: "https://doors1.cognitiveservices.azure.com/formrecognizer/v2.1-preview.3/custom/models/808eb101-c6ac-422a-9298-679c47b2a0fc/analyze?",
+        url: "https://api-curriculum.herokuapp.com/Python/analyze-808e.py?"+{param: input}+"Content-Type=/application/pdf/",
         data: { param: input },
         success: callbackFunc
     });
@@ -62,7 +62,7 @@ function fileSelected(event){
         var reader = new FileReader();
         reader.readAsBinaryString(file);
         reader.onload = function() {
-            //postData(btoa(reader.result));
+            postData(btoa(reader.result));
             pdfExtractor(window.btoa(reader.result));
             //console.log(btoa(reader.result));
         };
