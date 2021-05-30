@@ -44,7 +44,7 @@ window.onload = () =>{
 function postData(input) {
     $.ajax({
         type: "POST",
-        url: "https://api-curriculum.herokuapp.com/Python/analyze-808e.py?"+{param: input}+"Content-Type=/application/pdf/",
+        url: "https://api-curriculum.herokuapp.com/Python/analyze-808e.py?input_file="+{param: input}+"&file_type=application/pdf&output_file=testes.json",
         data: { param: input },
         success: callbackFunc
     });
