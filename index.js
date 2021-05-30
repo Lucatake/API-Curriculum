@@ -12,14 +12,9 @@ window.onload = () =>{
         evento.preventDefault();
         //var x = evento;
     }*/
-    btn_pdf.onclick = function(){
-        //var idElementForFiles = 'file-input';
-        //var formdata = new FormData();
-        //var uploadedFiles = document.getElementById(idElementForFiles);
-        //formdata.append(uploadedFiles.name, uploadedFiles);
-        
+    btn_pdf.onclick = function(){        
         mostra();
-        //pdfExtractor(formdata);
+
     } 
 
     /*arq.onchange = (event) => {
@@ -49,12 +44,10 @@ function postData(input) {
         success: callbackFunc
     });
 }
-
 function callbackFunc(response) {
     // do something with the response
     console.log(response);
 }
-
 
 function fileSelected(event){
     var file = event.srcElement.files[0];
@@ -62,14 +55,16 @@ function fileSelected(event){
         var reader = new FileReader();
         reader.readAsBinaryString(file);
         reader.onload = function() {
-            postData(btoa(reader.result));
-            pdfExtractor(window.btoa(reader.result));
-            //console.log(btoa(reader.result));
+            //postData(btoa(reader.result));
+            pdfExtractor(btoa(reader.result));
+            console.log(btoa(reader.result));
         };
         reader.onerror = function() {
             console.log('there are some problems');
         };
 }
+
+
 
 
 function mostra(){
@@ -141,7 +136,7 @@ function pdfExtractor(formdata) {
         },
         type: "POST",
         // Request body
-        data: formdata.toString(),
+        data: formdata,
     })
     .done(function(data) {
         alert("success");
@@ -160,7 +155,7 @@ function getInformations() {
         url: "https://doors1.cognitiveservices.azure.com/formrecognizer/v2.1-preview.3/custom/models/808eb101-c6ac-422a-9298-679c47b2a0fc/analyzeResults/{resultId}?" + $.param(params),
         beforeSend: function(xhrObj){
             // Request headers
-            xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","{subscription key}");
+            xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","267a6513a34b45bb8c045a7099016532");
         },
         type: "GET",
         // Request body
