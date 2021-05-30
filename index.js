@@ -44,7 +44,7 @@ window.onload = () =>{
 function postData(input) {
     $.ajax({
         type: "POST",
-        url: "api.py",
+        url: "/api.py",
         data: { param: input },
         success: callbackFunc
     });
