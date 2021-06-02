@@ -17,24 +17,7 @@ window.onload = () =>{
         //imageHandler(event);
     } 
 
-    /*arq.onchange = (event) => {
-        var file = event.srcElement.files[0];
-        console.log(file);
-        var reader = new FileReader();
-        reader.readAsBinaryString(file);
-    
-        reader.onload = function() {
-            //console.log(btoa(reader.result));
-            file = btoa(reader.result);
-        };
-        reader.onerror = function() {
-            console.log('there are some problems');
-        };
-        console.log(file);
-        return file;
-    }*/
-
-    document.getElementById('arq').addEventListener('change', imageHandler, false);
+    //document.getElementById('arq').addEventListener('change', imageHandler, false);
 }
 function postData(input) {
     $.ajax({

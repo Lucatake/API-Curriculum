@@ -1,4 +1,3 @@
-
 const http = require("http");
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -11,9 +10,10 @@ const {
   FormRecognizerClient,
   AzureKeyCredential,
 } = require("@azure/ai-form-recognizer");
+const { SSL_OP_EPHEMERAL_RSA } = require("constants");
+//const { hasSubscribers } = require("diagnostic_channel");
 
 const app = express();
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
@@ -46,6 +46,7 @@ app.use((req, res, next) => {
   next();
 });
 
+
 app.options("*", cors()); // include before other routes
 
 app.use("/api/analyze", (req, res, next) => {
@@ -56,14 +57,47 @@ app.use("/api/analyze", (req, res, next) => {
   uploadPath = __dirname + "\\uploads\\" + new Date().getTime() + ".jpg";
   file.mv(uploadPath, async () => {
     recognizeForm(uploadPath).then((result) => {
-      return res.status(200).json({
+      res.status(200).json({
         output: result,
       });
     });
   });
 });
 
+function verificaArquivo(file){
+  var ajax = new XMLHttpRequest();
+
+    ajax.open("GET",file,true);
+    ajax.send();
+    ajax.onreadystatechange = function() {
+      if (ajax.readyState == 4){
+          var jpg = ajax.responseText;
+
+          if(ajax.status===200) {
+              console.log("A imagem " + file + " existe");
+              return false;
+          } else {
+              console.log("A imagem " + file + " NAO existe");
+              return true;
+          }
+      }
+  }
+}
+
+/*pp.post('/apitest', function(req, res){
+  if (!req.files) {
+    return res.status(400).send("No files were uploaded.");
+  }
+  let file = req.files.file;
+  uploadPath = __dirname + "\\uploads\\" + new Date().getTime() + ".jpg";
+  while(verificaArquivo(uploadPath)){ } 
+  var test = recognizeForm(uploadPath);
+  file.mv(uploadPath,  res.status(200).json({output : test}));
+});*/
+
+
 async function recognizeForm(file) {
+  
   const endpoint = "https://doors1.cognitiveservices.azure.com/";
   const apiKey = "70b2796924584d8da912296e8dea613a";
   const modelId = "808eb101-c6ac-422a-9298-679c47b2a0fc";
@@ -100,14 +134,20 @@ async function recognizeForm(file) {
     }
 
     console.log("Fields:");
+    var jsonReturn = [];
     for (const fieldName in form.fields) {
       // each field is of type FormField
       const field = form.fields[fieldName];
-      console.log(
-        `Field ${fieldName} has value '${field.value}' with a confidence score of ${field.confidence}`
-      );
+      var name = field.name;
+      var valor = field.value;
+      var obj = `{"`+`${name}`+`": "`+`${valor}`+`"}`;
+      jsonReturn.push(JSON.parse(obj));
     }
+    console.log(
+      //`Field ${fieldName}:'${field.value}' with a confidence score of ${field.confidence}`
+        jsonReturn
+    );
   }
   fs.unlinkSync(uploadPath);
-  return forms;
+  return jsonReturn;
 }
