@@ -12,9 +12,9 @@ window.onload = () =>{
         evento.preventDefault();
         //var x = evento;
     }*/
-    btn_pdf.onclick = function(){        
+    btn_pdf.onclick = (event) => {        
         mostra();
-
+        //imageHandler(event);
     } 
 
     /*arq.onchange = (event) => {
@@ -34,7 +34,7 @@ window.onload = () =>{
         return file;
     }*/
 
-     document.getElementById('arq').addEventListener('change', fileSelected, false);
+    document.getElementById('arq').addEventListener('change', imageHandler, false);
 }
 function postData(input) {
     $.ajax({
@@ -49,7 +49,7 @@ function callbackFunc(response) {
     console.log(response);
 }
 
-function fileSelected(event){
+/*function fileSelected(event){
     var file = event.srcElement.files[0];
         console.log(file);
         var reader = new FileReader();
@@ -62,10 +62,36 @@ function fileSelected(event){
         reader.onerror = function() {
             console.log('there are some problems');
         };
-}
+}*/
 
-
-
+function onFileChanged(event) {
+    var files = event.target.files; // event.dataTransfer.files;
+    if (!files.length) {
+      return;
+    }
+  
+    var formData = new FormData();
+  
+    // Add the File object to the formdata
+    if (this.multiple) {
+      formData.append("files", files);
+    } else {
+      formData.append("file", files[0]);
+    }
+  
+    // Add your data...
+    //formData.append("data", myData);
+  }
+  
+  function uploadDocument(formData) {
+    console.log('data sent');
+    console.log(formdata);
+    pdfExtractor(Axios.post('/api/documents', formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data'
+      }
+    }));
+  }
 
 function mostra(){
     x=document.getElementById("arq");
@@ -118,7 +144,25 @@ function getJson(){
 //var file = document.getElementsByTagName('input').value();
 //var tipo = "application/"+file.split('.').pop();
 
+imageHandler = (e) => {
+    const reader = new FileReader();
+    
+    reader.readAsDataURL(e.target.files[0]);
 
+    let formData = new FormData();
+    formData.append("file", e.target.files[0]);
+    let url = "https://doors1.cognitiveservices.azure.com/formrecognizer/v2.1-preview.3/custom/models/808eb101-c6ac-422a-9298-679c47b2a0fc/analyze?";
+    axios
+      .post(url, formData, {
+        headers: {
+          "content-type": "application/pdf",
+        },
+      })
+      .then((res) => {
+        console.log(res);
+        
+      });
+  };
 
 function pdfExtractor(formdata) {
     var params = {
