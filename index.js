@@ -151,16 +151,16 @@ imageHandler = (e) => {
 
     let formData = new FormData();
     formData.append("file", e.target.files[0]);
-    let url = "https://doors1.cognitiveservices.azure.com/formrecognizer/v2.1-preview.3/custom/models/808eb101-c6ac-422a-9298-679c47b2a0fc/analyze";
+    let url = "https://doors1.cognitiveservices.azure.com/formrecognizer/v2.1-preview.3/custom/models/808eb101-c6ac-422a-9298-679c47b2a0fc/analyze?";
     axios
       .post(url, formData, {
         headers: {
-          "content-type": "application/pdf",
+          "Content-Type": "application/pdf",
+          "Ocp-Apim-Subscription-Key": "267a6513a34b45bb8c045a7099016532",
         },
       })
       .then((res) => {
-        console.log(res);
-        
+        console.log(res); 
       });
   };
 
