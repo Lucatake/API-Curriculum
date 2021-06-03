@@ -84,7 +84,7 @@ function verificaArquivo(file){
   }
 }
 
-/*pp.post('/apitest', function(req, res){
+/*app.post('/apitest', function(req, res){
   if (!req.files) {
     return res.status(400).send("No files were uploaded.");
   }
@@ -95,7 +95,7 @@ function verificaArquivo(file){
   file.mv(uploadPath,  res.status(200).json({output : test}));
 });*/
 
-
+var jsonReturn = [];
 async function recognizeForm(file) {
   
   const endpoint = "https://doors1.cognitiveservices.azure.com/";
@@ -133,8 +133,7 @@ async function recognizeForm(file) {
       }
     }
 
-    console.log("Fields:");
-    var jsonReturn = [];
+    //console.log("Fields:");
     for (const fieldName in form.fields) {
       // each field is of type FormField
       const field = form.fields[fieldName];
@@ -143,11 +142,13 @@ async function recognizeForm(file) {
       var obj = `{"`+`${name}`+`": "`+`${valor}`+`"}`;
       jsonReturn.push(JSON.parse(obj));
     }
-    console.log(
-      //`Field ${fieldName}:'${field.value}' with a confidence score of ${field.confidence}`
-        jsonReturn
-    );
+    //console.log(jsonReturn);
   }
+  
   fs.unlinkSync(uploadPath);
+  return jsonReturn;
+}
+function retorna(jsonReturn){
+  console.log(jsonReturn);
   return jsonReturn;
 }

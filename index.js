@@ -12,12 +12,6 @@ window.onload = () =>{
         evento.preventDefault();
         //var x = evento;
     }*/
-    btn_pdf.onclick = (event) => {        
-        mostra();
-        //imageHandler(event);
-    } 
-
-    //document.getElementById('arq').addEventListener('change', imageHandler, false);
 }
 function postData(input) {
     $.ajax({
@@ -138,8 +132,8 @@ imageHandler = (e) => {
     axios
       .post(url, formData, {
         headers: {
-          "Content-Type": "application/pdf",
-          "Ocp-Apim-Subscription-Key": "267a6513a34b45bb8c045a7099016532",
+            "Content-Type": "application/pdf",
+            "Ocp-Apim-Subscription-Key": "267a6513a34b45bb8c045a7099016532",
         },
       })
       .then((res) => {
@@ -150,7 +144,7 @@ imageHandler = (e) => {
 function pdfExtractor(formdata) {
     var params = {
         // Request parameters
-        "includeTextDetails": "",//formdata,
+        "includeTextDetails": true,//formdata,
     };
     $.ajax({
         post_url:"https://doors1.cognitiveservices.azure.com/formrecognizer/v2.1-preview.3/custom/models/808eb101-c6ac-422a-9298-679c47b2a0fc/analyze?",
