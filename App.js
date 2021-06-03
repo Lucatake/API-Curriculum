@@ -27,16 +27,6 @@ imageHandler = (e) => {
   };
 
 
-  State = {
-    analyzing: true,
-    nome: "",
-    email: "",
-    periodo: "",
-    curso: "",
-    telefone: "",
-  };
-
-  
 retrurnJson = (e) => {
   console.log("teste");
     let url = "http://127.0.0.1:3002/api/json/";
@@ -44,14 +34,27 @@ retrurnJson = (e) => {
       .get(url)
       .then((res) => {
         console.log(res);
-        let rec = res.data.output[0].fields;
-
-      State=({
-        analyzing: false,
-        nome: rec.Nome.value + rec.Sobrenome.value,
-        email: rec.Email.value,
-        periodo: rec.Periodo.value,
-        curso: rec.Curso.value,
-        telefone: rec.Telefone.value,
-      });
+        let rec = res.data;
+        render(rec);
+    });
   };
+ 
+  function render(rec){
+    var nome = "";
+    var email = "";
+    var periodo = "";
+    var curso = "";
+    var telefone = "";
+
+    /*for(fields in rec.output){
+      if rec.output.fie == 
+    }*/
+
+
+    $("#prenome").val(rec.output[5].Nome + rec.output[9].Sobrenome);
+    $("#email").val(rec.output[1].Email);
+    $("#periodo").val(rec.output[2].Periodo);
+    $("#curso").val(rec.output[3].Curso);
+    $("#telefone").val(rec.output[7].Telefone);
+
+  }

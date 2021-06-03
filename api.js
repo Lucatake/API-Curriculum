@@ -156,9 +156,10 @@ async function retorna(jsonReturn){
 
 app.get("/api/json", function(req, res) {
   retorna(jsonReturn).then((result) => {
+    var json = result;
       console.log("foiiii");
       res.status(200).json({
-        output: result,
+        output: json,
       });
     });
 });
