@@ -84,17 +84,6 @@ function verificaArquivo(file){
   }
 }
 
-/*app.post('/apitest', function(req, res){
-  if (!req.files) {
-    return res.status(400).send("No files were uploaded.");
-  }
-  let file = req.files.file;
-  uploadPath = __dirname + "\\uploads\\" + new Date().getTime() + ".jpg";
-  while(verificaArquivo(uploadPath)){ } 
-  var test = recognizeForm(uploadPath);
-  file.mv(uploadPath,  res.status(200).json({output : test}));
-});*/
-
 var jsonReturn = [];
 async function recognizeForm(file) {
   
@@ -156,10 +145,8 @@ async function retorna(jsonReturn){
 
 app.get("/api/json", function(req, res) {
   retorna(jsonReturn).then((result) => {
-    var json = result;
-      console.log("foiiii");
       res.status(200).json({
-        output: json,
+        output: result,
       });
     });
 });

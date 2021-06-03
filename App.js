@@ -1,3 +1,4 @@
+
 window.onload = () =>{
     document.getElementById('arq').addEventListener('change', imageHandler, false);
     document.getElementById('btn_pdf').addEventListener('click', retrurnJson, false);
@@ -24,10 +25,11 @@ imageHandler = (e) => {
         console.log(res);
         let rec = res.data.output[0].fields;
       });
+      alert("Obtendo informações! Espere um momento e depois clique em PDF para preencher os campos.");
   };
 
 
-retrurnJson = (e) => {
+retrurnJson = () => {
   console.log("teste");
     let url = "http://127.0.0.1:3002/api/json/";
     axios
@@ -41,20 +43,32 @@ retrurnJson = (e) => {
  
   function render(rec){
     var nome = "";
+    var sobrenome = "";
     var email = "";
     var periodo = "";
     var curso = "";
     var telefone = "";
 
-    /*for(fields in rec.output){
-      if rec.output.fie == 
-    }*/
-
-
-    $("#prenome").val(rec.output[5].Nome + rec.output[9].Sobrenome);
-    $("#email").val(rec.output[1].Email);
-    $("#periodo").val(rec.output[2].Periodo);
-    $("#curso").val(rec.output[3].Curso);
-    $("#telefone").val(rec.output[7].Telefone);
+    for(var i in rec.output){
+      if (rec.output[i].Nome){
+        nome = rec.output[i].Nome;
+      }if (rec.output[i].Sobrenome){
+        sobrenome = rec.output[i].Sobrenome;
+      }if (rec.output[i].Email){
+        email = rec.output[i].Email;
+      }if (rec.output[i].Periodo){
+        periodo = rec.output[i].Periodo;
+      }if (rec.output[i].Curso){
+        curso = rec.output[i].Curso;
+      }if (rec.output[i].Telefone){
+        telefone = rec.output[i].Telefone;
+      }
+    }
+    //rec.output[5].Nome
+    $("#prenome").val(nome + " " + sobrenome);
+    $("#email").val(email);
+    $("#periodo").val(periodo);
+    $("#curso").val(curso);
+    $("#telefone").val(telefone);
 
   }
