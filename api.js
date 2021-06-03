@@ -148,7 +148,17 @@ async function recognizeForm(file) {
   fs.unlinkSync(uploadPath);
   return jsonReturn;
 }
-function retorna(jsonReturn){
+
+async function retorna(jsonReturn){
   console.log(jsonReturn);
   return jsonReturn;
 }
+
+app.get("/api/json", function(req, res) {
+  retorna(jsonReturn).then((result) => {
+      console.log("foiiii");
+      res.status(200).json({
+        output: result,
+      });
+    });
+});
