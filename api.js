@@ -133,7 +133,7 @@ async function recognizeForm(file) {
       }
     }
 
-    //console.log("Fields:");
+    console.log("Fields:");
     for (const fieldName in form.fields) {
       // each field is of type FormField
       const field = form.fields[fieldName];
@@ -142,7 +142,7 @@ async function recognizeForm(file) {
       var obj = `{"`+`${name}`+`": "`+`${valor}`+`"}`;
       jsonReturn.push(JSON.parse(obj));
     }
-    //console.log(jsonReturn);
+    console.log(jsonReturn);
   }
   
   fs.unlinkSync(uploadPath);
