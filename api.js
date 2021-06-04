@@ -84,17 +84,6 @@ function verificaArquivo(file){
   }
 }
 
-/*app.post('/apitest', function(req, res){
-  if (!req.files) {
-    return res.status(400).send("No files were uploaded.");
-  }
-  let file = req.files.file;
-  uploadPath = __dirname + "\\uploads\\" + new Date().getTime() + ".jpg";
-  while(verificaArquivo(uploadPath)){ } 
-  var test = recognizeForm(uploadPath);
-  file.mv(uploadPath,  res.status(200).json({output : test}));
-});*/
-
 var jsonReturn = [];
 async function recognizeForm(file) {
   
@@ -133,7 +122,7 @@ async function recognizeForm(file) {
       }
     }
 
-    //console.log("Fields:");
+    console.log("Fields:");
     for (const fieldName in form.fields) {
       // each field is of type FormField
       const field = form.fields[fieldName];
@@ -142,13 +131,22 @@ async function recognizeForm(file) {
       var obj = `{"`+`${name}`+`": "`+`${valor}`+`"}`;
       jsonReturn.push(JSON.parse(obj));
     }
-    //console.log(jsonReturn);
+    console.log(jsonReturn);
   }
   
   fs.unlinkSync(uploadPath);
   return jsonReturn;
 }
-function retorna(jsonReturn){
+
+async function retorna(jsonReturn){
   console.log(jsonReturn);
   return jsonReturn;
 }
+
+app.get("/api/json", function(req, res) {
+  retorna(jsonReturn).then((result) => {
+      res.status(200).json({
+        output: result,
+      });
+    });
+});
